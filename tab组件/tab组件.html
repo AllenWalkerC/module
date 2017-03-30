@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			box-sizing: border-box;
+		}
+		.clearfix::after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+		.tab{
+			width: 322px;
+			border: 1px solid #DC1764;
+			border-radius: 5px;
+			margin-left: 20px;
+			margin-bottom: 20px;
+		}
+		.header{
+			padding: 10px 10px 0 10px;
+			position: relative;
+			overflow: hidden;
+		}
+		.header::before{
+			content: '';
+			width: 10px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            border-bottom: 1px solid #DC1764;
+		}
+		.header::after{
+			content: '';
+			width: 10px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            border-bottom: 1px solid #DC1764;
+		}
+		.header li{
+			float: left;
+			height: 40px;
+			line-height: 40px;
+			width: 100px;
+			border-bottom: 1px solid #DC1764;
+			text-align: center;
+			cursor: pointer;
+		}
+		.active{
+			border-left: 1px solid #DC1764;
+			border-right: 1px solid #DC1764;
+			border-top: 1px solid #DC1764;
+			border-bottom: 1px solid #fff !important;
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
+		}
+		.content{
+			padding: 10px;
+			height: 250px;
+		}
+		.content li{
+			height: 100%;
+
+		}
+		.hide{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="tab">
+		<ul class="header">
+			<li class="active">tab1</li>
+			<li>tab2</li>
+			<li>tab3</li>
+		</ul>
+		<ul class="content">
+			<li>内容一</li>
+			<li class="hide">内容二</li>
+			<li class="hide">内容三</li>
+		</ul>
+	</div>
+	<div class="tab">
+		<ul class="header">
+			<li class="active">tab1</li>
+			<li>tab2</li>
+			<li>tab3</li>
+		</ul>
+		<ul class="content">
+			<li>内容一</li>
+			<li class="hide">内容二</li>
+			<li class="hide">内容三</li>
+		</ul>
+	</div>
+	<div class="tab">
+		<ul class="header">
+			<li class="active">tab1</li>
+			<li>tab2</li>
+			<li>tab3</li>
+		</ul>
+		<ul class="content">
+			<li>内容一</li>
+			<li class="hide">内容二</li>
+			<li class="hide">内容三</li>
+		</ul>
+	</div>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="tab.js"></script>
+</body>
+</html>
