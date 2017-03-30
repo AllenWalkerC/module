@@ -11,7 +11,7 @@
 实现方法和瀑布流+懒加载页面大致相同，通过jsonp方式来获取数据
 
 
-- [require.js页面预览](http://book.jirengu.com/jirengu-inc/jrg-vip10/homework/%E9%87%87%E9%87%8A%E7%84%B6/requirejs%E9%A1%B5%E9%9D%A2/index.html)
+- [require.js页面预览](http://caishiran.top/module/requirejs/index.html)
 
 该页面使用模块化实现，模块符合AMD规范，运用到的库是require.js。实现步骤可参考我的博客地址[地址](http://www.jianshu.com/p/aacd4ef1f659)
 
@@ -21,6 +21,6 @@
 Tab组件和轮播组件使用面向对象的方式实现
 
 
-- [vue页面预览]()
+- [vue页面预览](http://caishiran.top/module/vue%E5%8A%A8%E7%94%BB/vue%E5%8A%A8%E7%94%BB.html)
 
 该页面使用vue.js实现，主要的思路就是使用setInterval方法不断的修改数据，达到样式随着内容的改变而改变。
