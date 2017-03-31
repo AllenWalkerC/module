@@ -16,7 +16,7 @@
 该页面使用模块化实现，模块符合AMD规范，运用到的库是require.js。实现步骤可参考我的博客地址[地址](http://www.jianshu.com/p/aacd4ef1f659)
 
 - [Tab组件预览](http://htmlpreview.github.io/?https://github.com/AllenWalkerC/module/blob/master/tab%E7%BB%84%E4%BB%B6/tab%E7%BB%84%E4%BB%B6.html)
-  [轮播组件预览]()
+  [轮播组件预览](http://caishiran.top/module/%E8%BD%AE%E6%92%AD%E7%BB%84%E4%BB%B6/carousel.html)
   
 Tab组件和轮播组件使用面向对象的方式实现
 
