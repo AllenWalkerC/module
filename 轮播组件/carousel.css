@@ -57,6 +57,7 @@
 			line-height: 50px;
 			font-size: 30px;
 			margin-top: -25px;
+			cursor: pointer;
 		}
 		.left{
 			left: 20px;
